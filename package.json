@@ -1,0 +1,13 @@
+{
+  "name": "fuelsense-ai",
+  "version": "1.0.0",
+  "description": "AI-powered fuel consumption optimizer",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:ml": "cd ml-model && python app.py",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["fuel", "AI", "machine-learning", "optimization"]
+}
